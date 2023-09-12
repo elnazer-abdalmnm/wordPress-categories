@@ -1,7 +1,6 @@
 <?php
-// In your theme's functions.php file or custom plugin file
 function show_categories_list() {
-    $categories = get_categories(); // Retrieve all categories
+    $categories = get_categories();
 
     if ($categories) {
         $output = '<div class="category-grid">';
